@@ -1,0 +1,53 @@
+
+
+.navbar {
+   
+    padding: 10px;
+    background-color: #82204a;
+  }
+  
+  .nav-list {
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #82204a;
+  
+  }
+  
+  .nav-item {
+    margin: 0;
+    background-color: #82204a;
+  }
+  
+  .nav-link {
+    background-color: #82204a;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: green; /* Change the color on hover */
+  }
+  
+
+  .nav {
+    position: relative;
+    top: 0;
+    background-color: #82204a;
+    
+    width: 100%;
+    
+    color:black;
+    padding: 10px;
+    z-index: 100; /* Set a higher z-index value */
+  }
+  .content-container {
+    margin-top:10; /* Adjust the margin-top value based on your nav bar height */
+    /* Other styles for the content container */
+    background-color: beige;
+  }  
+  

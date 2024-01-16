@@ -1,0 +1,49 @@
+/* ImageList.css */
+.image-list-container {
+  overflow-x: hidden;
+  animation: scroll 30s linear infinite;
+  width: max-content;
+  flex-wrap: wrap;
+  border-radius: 99px;
+  
+}
+
+.image-list {
+  display: flex;
+  border-radius: 99px;
+  
+}
+
+.image-item {
+  flex: 0 0 auto;
+  border-radius: 99px;
+}
+/* ImageSlider.css */
+.slider-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  animation: infinite 1s linear;
+  gap:10px;
+;
+  
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+ 
+  
+}
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  animation: infinite 10s linear;
+  border-radius: 99px;
+}

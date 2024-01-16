@@ -1,0 +1,44 @@
+.doctor-cards {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr)); /* 3 columns with infinite rows */
+  gap: 20px;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+ margin-top: 20px;
+  
+}
+
+.doctor-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out ;
+  background-color: #f67db1; /* Set background color to beige */
+  width: 250px; /* Set width to 400px */
+  height: 250px; /* Set height to 400px */
+  
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+.doctor-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.doctor-details {
+  padding: 10px;
+}
+
+.doctor-details h3 {
+  margin: 0;
+}
+
+.doctor-details p {
+  margin: 5px 0;
+}

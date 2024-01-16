@@ -1,0 +1,43 @@
+/* AcceptRequestButton.css */
+
+.accept-request-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .accept-request-button {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: beige; /* Blue color */
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    color: black; /* White text color */
+    text-align: center;
+  }
+  
+  .accept-request-button select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .accept-request-button button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #2980b9; /* Darker blue for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .accept-request-button button:hover {
+    background-color: #216795; /* Slightly darker shade on hover */
+  }
+  

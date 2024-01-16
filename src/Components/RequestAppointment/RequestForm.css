@@ -1,0 +1,33 @@
+/* RequestForm.css */
+.request-form-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: beige;
+    width: 250px;
+    padding: 35px;
+    margin: 40px auto;
+  
+
+  }
+  
+  .request-form-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .request-form-container button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .request-form-container button:hover {
+    background-color: #2980b9;
+  }
+  
